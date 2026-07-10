@@ -480,6 +480,10 @@ footer{ border-top:1px solid var(--line); padding: 40px 0; margin-top: 40px; pos
     transform: translateY(0);
 }
 
-/* ---------- Table (Academic snapshot) ---------- */
+/* ---------- Table (Academic snapshot) ---------- 
 table.data-table{ width:100%; border-collapse: collapse; font-size: 14px; }
-.data-table th, .dat
+.data-table th, .data-table td{ text-align:left; padding: 12px 14px; border-bottom:1px solid var(--line-soft); }
+.data-table th{ font-family: var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color: var(--muted-2); font-weight:500; }
+.data-table tr:last-child td{ border-bottom:none; }
+.data-table td{ color: var(--muted); }
+.data-table td strong{ color: var(--text); font-weight:500; }
