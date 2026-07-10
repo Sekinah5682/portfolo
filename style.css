@@ -205,12 +205,6 @@ header.site-header{
 .hero-bio{ color: var(--muted); max-width: 54ch; margin-bottom: 26px; font-size: 15.5px; }
 .hero-cta{ display:flex; gap:14px; flex-wrap:wrap; }
 
-/* ID Badge (signature element) */
-.id-badge{
-  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
-  border: 1px solid var(--line); border-radius: var(--radius-lg);
-  padding: 22px; box-shadow: var(--shadow); position:relative;
-}
 /* ---------- ID Badge (Signature Element) ---------- */
 .id-badge{
     background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
@@ -475,9 +469,16 @@ footer{ border-top:1px solid var(--line); padding: 40px 0; margin-top: 40px; pos
 .contact-info .icon{ width:34px; height:34px; border:1px solid var(--line); border-radius:4px; display:flex; align-items:center; justify-content:center; color:var(--cyan); flex-shrink:0; }
 .contact-info .icon svg{ width:16px; height:16px; }
 
-/* ---------- Reveal on scroll ---------- */
-.reveal{ opacity:0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
-.reveal.in{ opacity:1; transform: translateY(0); }
+.reveal{
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity .6s ease, transform .6s ease;
+}
+
+.reveal.in{
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /* ---------- Table (Academic snapshot) ---------- */
 table.data-table{ width:100%; border-collapse: collapse; font-size: 14px; }
