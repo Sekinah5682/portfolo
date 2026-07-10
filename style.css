@@ -486,4 +486,4 @@ table.data-table{ width:100%; border-collapse: collapse; font-size: 14px; }
 .data-table th{ font-family: var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color: var(--muted-2); font-weight:500; }
 .data-table tr:last-child td{ border-bottom:none; }
 .data-table td{ color: var(--muted); }
-.data-table td strong{ color: var(--text); font-weight:500; }
+.data-table td strong{ color: var(--text); font-weight:500; } 
